@@ -24,7 +24,7 @@ header{
 .menu {
     display: flex;
     align-items: center;
-    /* margin: auto;  */
+    margin: auto;  
     margin-right: 60px; 
     
     
@@ -81,7 +81,7 @@ header{
 }
 .logo img {
     width: 50px;
-    margin-left: 85px;
+    margin-left: 60px;
     
 
 } 
@@ -169,7 +169,7 @@ header{
     height: 250px;
     margin-left: 75px;
     text-align: left;
-    font-size: 28px;
+    font-size: 25px;
     color: #0C2C43;
     margin-top: 15px;
     
@@ -180,19 +180,23 @@ header{
     color: #0C2C43;
     font-size: 25px;
 }
-.clients {
+/* .clients {
     width: 88%;
     height: 300px;
     display: flex;
     margin-left: 70px;
-    justify-content: space-between; 
-}
+    gap: 20px;
+    /* justify-content: space-between;  */
+/* }
 .left-rigth {
     width: 500px;
     box-shadow: 0 0 4px;
     text-align: left;
     padding: 12px;
 }
+.div-p {
+    font-size: 20px;
+} */ 
 .image {
     display: flex;
     width: 500px;
@@ -311,6 +315,32 @@ header{
     height: 450px;
     margin-top: 20px; 
 }
+.footer {
+    display: flex;
+    background-color: #0C2C43;
+    width: 100%;
+    height: 50px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.link .bx {
+    color: white;
+}
+.link {
+    
+    padding-right: 80px;
+    display: flex;
+    
+}
+.link div {
+  
+    
+}
+.copy {
+    padding-left: 70px;
+}
 @media (max-width:1200px) {
     .propos img {
         width: 400px;
@@ -384,6 +414,10 @@ header{
         flex-direction: column;
         align-items: center;
     }
+    #contact{
+        height: 1230px;
+        
+    }
     .right iframe{
     
         margin-right: 90px;
@@ -455,6 +489,14 @@ header{
     .toggle_menu.active::after {
         transform: translateY(0) rotate(-135deg);
     }
+
+
+
+    .clients {
+        width: 88%;
+        height: fit-content;
+        gap: 20px;
+    }
     .left-rigth {
         width: 290px;
         font-size: 12px;
@@ -472,11 +514,14 @@ header{
     .propos {
         flex-direction: column;
         align-items: center;
-        /* border: 2px solid black; */
+        
+    }
+    .propos img {
+        margin-left: 40px;
     }
    
     .propos p {
-        text-align: center;
+        text-align: left;
         
     }
     .nos-contact{
@@ -485,7 +530,12 @@ header{
     }
     #contact{
         /* border: 2px solid black; */
-        height: fit-content;
+        /* height: fit-content; */
+        height: 1390px;
+    }
+    .clients {
+        flex-direction: column;
+        
     }
 }
 
