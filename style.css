@@ -291,7 +291,7 @@ header{
     margin-bottom: 30px;
 }
 .textarea {
-    padding-top: 60px;
+    /* padding-top: 60px; */
     width: 400px;
     height: 80px;
     /* flex-wrap: wrap; */
