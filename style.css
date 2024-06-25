@@ -106,7 +106,8 @@ header{
 .heros-p button {
     padding: 15px 30px;
     border-radius: 6px;
-    border: 1px solid black;
+    border: 1px solid black; 
+    border: none;
     background-color: #54816D;
     color: white;
     
@@ -306,6 +307,7 @@ header{
     padding: 15px 30px;
     border-radius: 6px;
     border: 1px solid black;
+    border: none;
     background-color: #54816D;
     color: white;
     margin-right: 400px; 
