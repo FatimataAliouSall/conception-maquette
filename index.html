@@ -18,7 +18,7 @@
     <section id="header">
         <header>
            <div class="logo">
-              <img src="ressources/BTP_mini-Solutions_Logo----.png" alt="logo-du-site">
+              <img src="ressources/BTP_mini-Solutions_Logo----.png" alt="logo du site">
            </div>
            
            <ul class="menu">
@@ -44,17 +44,17 @@
         <h1>NOS SERVICES</h1>
         <div class="gride">
             <div class="items items1">
-                <img src="ressources/service-1.webp" alt="services1-webp">
+                <img src="ressources/service-1.webp" alt="Construction de bâtiments">
                 <h5>Construction de bâtiments</h5>
                 <p>Des constructions robustes et esthétiques <br>pour tous vos besoins résidentiels,<br> commerciaux et industriels.</p>
               </div>
               <div class="items items2">
-                 <img src="ressources/service-2.webp" alt="services2-webp">
+                 <img src="ressources/service-2.webp" alt="Travaux publics">
                  <h5>Travaux publics</h5>
                  <p>Des infrastructures publiques fiables <br>et durables,incluant routes, ponts et <br>aménagements urbains.</p>
                </div>
               <div class="items items3">
-                 <img src="ressources/service-3.webp" alt="service3-webp">
+                 <img src="ressources/service-3.webp" alt="Rénovation et réhabilitation">
                  <h5>Rénovation et réhabilitation</h5>
                  <p>Redonnez vie à vos bâtiments avec nos <br> solutions de rénovation complètes et <br> innovantes.</p>
               </div>
@@ -70,7 +70,7 @@
                 </p>
             </div>
             <div class="img">
-                <img src="ressources/heros.webp" alt="heros-webp">
+                <img src="ressources/heros.webp" alt="Image de font">
             </div>
         </div>
        
@@ -79,7 +79,7 @@
         <h1>TEMOIGNAGES</h1>
         <div class="gride">
             <div class="items items1">
-                <img src="ressources/clients1.png" alt="client1">
+                <img src="ressources/clients1.png" alt=" client jean François ">
                 <h5>jean François </h5>
                 <i  class="bx bx-star"></i>
                         <i  class="bx bx-star"></i>
@@ -89,7 +89,7 @@
                 <p>Grâce à BTP Solutions, notre nouveau siège social est un véritable succès. Leur professionnalisme et leur souci du détail ont été remarquables.</p>
               </div>
               <div class="items items2">
-                 <img src="ressources/client2.png" alt="client2">
+                 <img src="ressources/client2.png" alt="client Silvia Tora">
                  <h5>Silvia Tora </h5> 
                  <i  class="bx bx-star"></i>
                         <i  class="bx bx-star"></i>
@@ -99,7 +99,7 @@
                  <p>Les travaux de rénovation de notre école ont été réalisés avec une grande précision et dans les délais impartis. Merci à toute l'équipe de BTP Solutions.</p>
                </div>
               <div class="items items3">
-                 <img src="ressources/client3.png" alt="client3">
+                 <img src="ressources/client3.png" alt="client Jorch morik">
                  <h5> Jorch morik</h5> 
                  <i  class="bx bx-star"></i>
                         <i  class="bx bx-star"></i>
@@ -132,16 +132,21 @@
         </div>
         <div class="localisation">
             <div class="left">
-                <form action="#">
+                <form id="contactForm" action="#">
                     <label class="label" for="nom">Nom</label>
-                    <input class="input" type="text" name="nom" id="nom" placeholder="Nom" required>
-                    <label class="label" for="e-mail">Email</label>
+                    <input class="input" type="text" name="nom" pattern="[a-zA-Z]+" id="nom" placeholder="Nom" required maxlength="10">
+                    <span class="error" id="nomError"></span>
+            
+                    <label class="label" for="email">Email</label>
                     <input class="input" type="email" name="email" id="email" placeholder="Email" required>
+                    <span class="error" id="emailError"></span>
+            
                     <label class="label" for="message">Message</label>
                     <textarea class="textarea" name="message" id="message" placeholder="Message"></textarea>
-                    <button>ENVOYER</button>
+                    <span class="error" id="messageError"></span>
+            
+                    <button type="submit">ENVOYER</button>
                 </form>
-
             </div>
             <div class="right">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.2312013332!2d2.182225052110431!3d48.85873740539782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sfr!2s!4v1718544574231!5m2!1sfr!2s" width="500"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -171,7 +176,6 @@
         small_menu.classList.toggle('active');
         menu.classList.toggle('responsive');
     }
-
 
 </script>
 
