@@ -59,18 +59,7 @@ header{
 .menu li a:hover::before{
     width: 100%;
 }
-/* .menu li a::after{
-    position: absolute;
-    bottom: -5px;
-    right: 0;
-    content: "";
-    width: 0;
-    height: 2px;
-    border-radius: 6px;
-    background-color: #0056b3;
-    transition: 0.5s;
 
-} */
 
 .menu li a:hover::after{
     width: 100%;
@@ -202,7 +191,7 @@ header{
     display: flex;
     width: 500px;
     height: 120px;
-    /* border: 1px solid black; */
+   
 }
 .image img{
     width: 110px;
@@ -213,7 +202,7 @@ header{
     
 }
 .div-p {
-    /* border: 1px solid black; */
+   
     width: 500px;
 }
 .voirplus {
@@ -243,15 +232,12 @@ header{
     display: flex;
     margin: auto;
     justify-content: space-around;
-    /* padding-left: 290px; */
-    /* margin-left: 550px; */
-    /* gap: 60px; */
+   
 }
 
 .réseau div {
     width: 100px;
     height: 100px;
-    /* padding: 50px 2px;*/
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -542,8 +528,7 @@ header{
         height: fit-content;
     }
     #contact{
-        /* border: 2px solid black; */
-        /* height: fit-content; */
+       
         height: 1390px;
     }
     .clients {
